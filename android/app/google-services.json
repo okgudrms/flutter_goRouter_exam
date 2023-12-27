@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "977788610653",
+    "project_id": "lio-gorouter",
+    "storage_bucket": "lio-gorouter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977788610653:android:633ea8c2dd845d35f245b4",
+        "android_client_info": {
+          "package_name": "com.liomo.lio_ga_gorouter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJYmeL1kYDgVnip-3ucHDVmvQ76RAwMr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -19,12 +19,41 @@ class PathParmPage extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: () {
-              context.go('/path_parm/456/liomo');
+              context.push('/path_parm/456/liomo');
             },
             child: Text(
-              "Go Path Parm",
+              "Go Path Parm2",
             ),
           ),
+        ],
+      ),
+    );
+  }
+}
+
+class PathParmPage2 extends StatelessWidget {
+  const PathParmPage2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return DefaultLayout(
+      body: ListView(
+        children: [
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 30),
+            child: Center(
+              child: Text(
+                  "PAHT PARM PAGE2 : ${GoRouterState.of(context).pathParameters}"),
+            ),
+          ),
+          // ElevatedButton(
+          //   onPressed: () {
+          //     context.go('/path_parm/456/liomo');
+          //   },
+          //   child: Text(
+          //     "Go Path Parm2",
+          //   ),
+          // ),
         ],
       ),
     );
